@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "inquirer": "^9.1.4"
-  }
+  },
+  "name": "readme-generator-nodejs",
+  "description": "A Node JS application that creates a professional README.md from user input through the CLI.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klgibsonjr/readme-generator-nodejs.git"
+  },
+  "author": "Ken Gibson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Klgibsonjr/readme-generator-nodejs/issues"
+  },
+  "homepage": "https://github.com/Klgibsonjr/readme-generator-nodejs#readme"
 }
