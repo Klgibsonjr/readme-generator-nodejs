@@ -69,14 +69,7 @@ const questions = [
     type: 'list',
     name: 'License',
     message: 'Please select which license you would like to use.',
-    choices: [
-      'Apache License 2.0',
-      'MIT License',
-      'GNU GPL v3.0',
-      'Mozilla Public License 2.0',
-      'Eclipse Public License 2.0',
-      'None',
-    ],
+    choices: ['Apache 2.0', 'MIT ', 'GNU GPL v3.0', 'None'],
     validate: (licenseInput) => {
       if (licenseInput) {
         return true;
