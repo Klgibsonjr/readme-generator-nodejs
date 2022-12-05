@@ -21,17 +21,38 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  let licenseLink = '';
+  if (license === 'MIT') {
+    licenseLink = 'https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt'
+  } else if (license === 'Apache 2.0') {
+    licenseLink = 'http://www.apache.org/licenses/LICENSE-2.0'
+  } else if (license === 'GNU GPL v3.0') {
+    licenseLink = 'https://www.gnu.org/licenses'
+  } else {
+    licenseLink = 'A license was not selected'
+  }
+  return licenseLink;
+
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  let licenseSection = '';
+  if (license === 'None') {
+    licenseSection = '';
+  } else {
+    licenseSection =
+    `License: ${license} `
+  }
+  return licenseSection;
+}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
-
-`;
+function generateMarkdown(input) {
+  return `# ${input.title}`;
+  
 }
 
 module.exports = generateMarkdown;
