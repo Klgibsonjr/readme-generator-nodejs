@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "inquirer": "^9.1.4"
+    "inquirer": "^8.2.4"
   },
   "name": "readme-generator-nodejs",
   "description": "A Node JS application that creates a professional README.md from user input through the CLI.",
