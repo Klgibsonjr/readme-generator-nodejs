@@ -48,7 +48,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Please select which license you would like to use:',
-    choices: ['Apache 2.0', 'MIT ', 'GNU GPL v3.0', 'None'],
+    choices: ['Apache 2.0', 'MIT', 'GNU GPL v3.0', 'None'],
   },
   {
     type: 'input',
@@ -71,6 +71,11 @@ const questions = [
         return 'Please provide your github username.';
       }
     },
+  },
+  {
+    type: 'email',
+    name: 'email',
+    message: 'Enter your email address:',
   },
 ];
 
