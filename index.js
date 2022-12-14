@@ -20,7 +20,11 @@ const questions = [
   {
     type: 'input',
     name: 'description',
-    message: 'Please provide a short desciption of your project:',
+    message: `Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:\n    
+  - What was your motivation?
+  - Why did you build this project? 
+  - What problem does it solve?
+  - What did you learn?\n`,
     validate: (descInput) => {
       if (descInput) {
         return true;
@@ -64,6 +68,11 @@ const questions = [
     type: 'input',
     name: 'questions',
     message: 'Enter Github username for any inquiries about the project:',
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'Enter your email address:',
     validate: (questionInput) => {
       if (questionInput) {
         return true;
@@ -71,11 +80,6 @@ const questions = [
         return 'Please provide your github username.';
       }
     },
-  },
-  {
-    type: 'email',
-    name: 'email',
-    message: 'Enter your email address:',
   },
 ];
 
@@ -91,7 +95,7 @@ function writeToFile(filename, data) {
 // Function used to initialize the App
 function init() {
   inquirer.prompt(questions).then((data) => {
-    writeToFile('README.md', generateMarkdown(data));
+    writeToFile('SampleREADME.md', generateMarkdown(data));
     console.log(data);
   });
 }

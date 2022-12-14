@@ -38,7 +38,7 @@ function renderLicenseSection(license) {
   if (license === 'None') {
     return '';
   } else {
-    return `License: ${license} `;
+    return `License: ${license}`;
   }
 }
 
@@ -58,6 +58,7 @@ function generateMarkdown(data) {
   ---
 
   ## Description
+ 
 
   ${data.description}
 

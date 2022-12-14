@@ -1,5 +1,5 @@
 
-  <h1 align='center'> tes</h1>
+  <h1 align='center'> TEST</h1>
 
   - ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
@@ -10,8 +10,12 @@
   ---
 
   ## Description
+ - What was your motivation?
+ - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+ - What problem does it solve?
+ - What did you learn?
 
-  test
+  TEST
 
   ---
 
@@ -27,30 +31,30 @@
 
   ## Installation
 
-  test
+  TEST
 
   ---
 
   ## Usage
 
-  test
+  TEST
 
   ---
 
   ## Contributing
 
-  test
+  TEST
 
   ---
 
   ## Test
 
-  test
+  TEST
 
   ---
 
   ## Questions
 
-  If you have any questions/concerns about the project, please contact me directly at klgibsonjr@gmail.com. 
-  Or for more details about this project you can check out my repo at my Github account, [klgibsonjr](https://github.com/klgibsonjr/).
+  If you have any questions/concerns about the project, please contact me directly at TEST. 
+  Or for more details about this project you can check out my repo at my Github account, [TEST](https://github.com/TEST/).
   
