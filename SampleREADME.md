@@ -12,7 +12,7 @@
   ## Description
  
 
-  A node.js application that use inquirer to prompt users via the CLI to generat a professional README.md.
+  A node.js application that uses inquirer to prompt users via the CLI to generate a professional README.
 
   ---
 
@@ -28,13 +28,13 @@
 
   ## Installation
 
-  Input npm init to create a package.json. Then input npm install inquirer to install the neccessary package to run the application.
+  Run npm init to create a package.json. Then input npm install the necessary package to run the application.
 
   ---
 
   ## Usage
 
-  Input node index.js to initialize the application.
+  Run node index.js to initialize teh application.
 
   ---
 
@@ -46,7 +46,7 @@
 
   ## Test
 
-  No test needed at this time.
+  N/A
 
   ---
 
