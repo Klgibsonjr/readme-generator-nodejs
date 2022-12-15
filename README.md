@@ -17,7 +17,7 @@ Please refer to https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt for
 
 [Walkthrough Video](https://drive.google.com/file/d/1fix5KgV1NQ6qC2ydri6SLPcyxs3kz3BI/view 'Walkthrough Video')
 
-Below are a few screenshot showcasing the application:
+Below are a few screenshots showcasing the application:
 
 ![Terminal Example](./assets/readme-generator1.png)
 
@@ -100,7 +100,7 @@ Aside from myself, there were no contributors to this project.
 
 ## Test
 
-Not test where needed for this application.
+Not test were needed for this application.
 
 ---
 
